@@ -2,24 +2,50 @@
     color: red!important;
 }
 
+.text-teal{
+    color: teal!important;
+}
+
 .hero-animation{
     width: 100vw;
     height: 75vh;
 }
 
-.cuadrado{
+.logo p{
+    padding-top: 30%;
+    font-size: 2vw;
+}
+
+.logo{
     font-family: 'Pacifico', cursive;
     background-color: tomato;
-    width: 10vw;
+    width: 13vw;
     height : 10vw;
     margin-top: 25vh;
     margin-left: 30vw;
+    border-radius: 50%;
+
+    animation-name: animaLogo;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
 }
 
-.cuadrado:hover{
-    width: 15vw;
-    height: 15vw;
-    transition-property: width, height;
-    transition-duration: 2s;
+@keyframes animaLogo {
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.25);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    75%{
+        transform: scale(1.25);
+    }
+    100%{
+        transform: scale(1.5);
+    }
 }
 
