@@ -2,9 +2,13 @@
     color: red!important;
 }
 
-.maintxt {
-    background-image: url(/img/cerveza-hero.png);
-    background-size: cover;
-    height: 100vh;
+.hero-animation{
     width: 100vw;
+    height: 75vh;
+}
+
+.cuadrado{
+    color: tomato;
+    width: 15vw;
+    height: 15vh;
 }
