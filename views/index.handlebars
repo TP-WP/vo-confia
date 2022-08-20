@@ -1,9 +1,20 @@
 <body class="bg-dark">
-    <!-- bootstrap funciona!-->
+
+    <div class="container">
+        <div class="d-flex justify-content-between">
+            <div class="logo ">
+                <p class="text-teal text-center">Vo confia</p>
+            </div>
+            <span class="login ms-auto text-light ">Registrarse/iniciar</span>
+        </div>
+    </div>
+
+    {{> navbar}}
+
     <div class="container">
         <div class="row">
             <div class="hero-animation bg-black">
-                <div class="logo">
+                <div class="logo animated-logo">
                     <p class="text-teal text-center">Vo confia</p>
                 </div>
                 <div class="cervecita">
@@ -12,7 +23,6 @@
             </div>
         </div>
     </div>
-    {{> navbar}}
 
     <!--
         por aqui el cuerpo de la pagina principal

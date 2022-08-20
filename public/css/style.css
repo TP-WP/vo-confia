@@ -21,9 +21,12 @@
     background-color: tomato;
     width: 13vw;
     height : 10vw;
+    border-radius: 50%;
+}
+
+.animated-logo{
     margin-top: 25vh;
     margin-left: 30vw;
-    border-radius: 50%;
 
     animation-name: animaLogo;
     animation-duration: 2s;
