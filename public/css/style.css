@@ -6,6 +6,10 @@
     color: teal!important;
 }
 
+.login{
+    cursor: pointer;
+}
+
 .hero-animation{
     width: 100vw;
     height: 75vh;
