@@ -49,3 +49,7 @@ app.set("view engine", "handlebars");
 app.get("/", async (req, res) => {
   res.render("index"); //aqui como segundo argumento {helper}
 });
+
+app.get("/crea-tu-chela", async (req, res) => {
+  res.render("crea-tu-chela"); //aqui como segundo argumento {helper}
+});
